@@ -11,7 +11,7 @@ public class AlexTest {
     public void getFriendsTest() throws Exception {
         Feline feline = new Feline();
         Alex alex = new Alex(feline);
-        List<String> expected = List.of("Зебра Марти", "Бегемотихф Глория", "Жирафа Мелман");
+        List<String> expected = List.of("Зебра Марти", "Бегемотиха Глория", "Жираф Мелман");
 
         List<String> actual = alex.getFriends();
 
